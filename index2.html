@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #333;
+        }
+        
+        a{
+            color: white;
+        }
+        .round{
+            width: 200px;
+            height: 200px;
+            background-color: #111;
+            border-radius:100% ;
+        }
+        .round .indicator{
+            width: 200px;
+            height: 10px;
+            background-color: green;
+        }
+        .round a{
+            background-color: orange;
+            display: block;
+            font-size: 10px;
+            border: 1px solid black;
+            margin-bottom: -12px;
+
+        }
+        #second{
+            height: 100px;
+            width: 100px;
+        }
+        .round a:nth-child(4){
+           
+            transform:  translateY(125px)  rotate(135deg)  ;
+
+        }
+        .round a:nth-child(3){
+            
+            transform:  translateY(94px)  rotate(180deg)  ;
+        }
+        .round a:nth-child(2){
+           
+            transform:  translateY(94px)  rotate(225deg)  ;
+        }
+        .round a:nth-child(1){
+            
+            transform:  translateY(94px)  rotate(270deg)  ;
+
+        }
+        .round #first{
+            background-color: orange;
+            height: 150px;
+            width: 150px;
+            margin-top:40px ;
+            transform:translateX(25px) translateY(25px) ;
+            border-radius: 100%;
+            background-color: black;
+        }
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <nav class="round">
+
+        <a href="#first"></a>
+       <a href="#second"></a>
+       <a href="#third"></a>
+       <a href="#fourth"></a>
+
+
+        <div id="first">
+            <div id="second">
+
+            </div>
+        </div>
+
+
+
+    </nav>
+    
+</body>
+</html>
